@@ -217,10 +217,27 @@ a:hover {
     animation: fadeUp 1s ease forwards;
 }
 
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
 /* Sections */
 .section {
     padding: 8rem 0;
     position: relative;
+}
+
+/* Split Grid */
+.split-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.split-grid.align-center {
+    align-items: center;
 }
 
 /* Services Grid */
@@ -362,5 +379,15 @@ textarea.form-control {
     
     .hero-overlay {
         background: linear-gradient(to top, rgba(15, 23, 42, 0.85) 0%, rgba(15, 23, 42, 0.4) 100%);
+    }
+
+    .split-grid {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
