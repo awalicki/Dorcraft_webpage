@@ -1,6 +1,6 @@
-Dorcraft Webpage
+Door Craft Webpage
 
-This is a simple website for Dorcraft, a company that installs and services doors and gates.
+This is a simple website for Door Craft, a company that installs and services doors and gates.
 
 The site is built with plain HTML, CSS, and some JavaScript. No heavy frameworks are used to keep things fast and simple. 
 
