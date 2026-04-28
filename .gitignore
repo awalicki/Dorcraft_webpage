@@ -1,0 +1,16 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Python cache (from our http.server or any scripts)
+__pycache__/
+*.py[cod]
+*$py.class
