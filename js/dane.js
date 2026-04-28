@@ -2,9 +2,9 @@
 // Zmieniając dane tutaj, zmienią się one automatycznie na wszystkich podstronach!
 
 const DANE = {
-    telefon: "+48 12344444444",
+    telefon: "+69 123 456 789",
     email: "biuro@dorcraft.pl",
-    ulica: "ul. Przykładowa 12/3",
-    miasto: "00-001 Warszawa",
+    ulica: "ul. Cegielniana 12/3",
+    miasto: "97-200 Tomaszów Mazowiecki",
     godziny: "Pon - Pt: 8:00 - 18:00"
 };

@@ -367,6 +367,13 @@ textarea.form-control {
 }
 
 /* Media Queries */
+@media (max-width: 992px) {
+    .split-grid {
+        grid-template-columns: 1fr !important;
+        gap: 3rem !important;
+    }
+}
+
 @media (max-width: 768px) {
     .nav-links {
         display: none; /* simple mobile hide for now */
@@ -382,8 +389,7 @@ textarea.form-control {
     }
 
     .split-grid {
-        grid-template-columns: 1fr;
-        gap: 2.5rem;
+        gap: 2.5rem !important;
     }
 
     .hero-buttons {
